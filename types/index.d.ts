@@ -26,8 +26,8 @@ declare type AddImageParams = {
     width: number;
     height: number;
     config: any;
-    secureURL: string;
-    transformationURL: string;
+    secureUrl: string;
+    transformationUrl: string;
     aspectRatio: string | undefined;
     prompt: string | undefined;
     color: string | undefined;
@@ -45,8 +45,8 @@ declare type UpdateImageParams = {
     width: number;
     height: number;
     config: any;
-    secureURL: string;
-    transformationURL: string;
+    secureUrl: string;
+    transformationUrl: string;
     aspectRatio: string | undefined;
     prompt: string | undefined;
     color: string | undefined;
@@ -123,7 +123,7 @@ declare type TransformationFormProps = {
   userId: string;
   type: TransformationTypeKey;
   creditBalance: number;
-  data?: IImage | null;
+  data?: Image | null;
   config?: Transformations | null;
 };
 

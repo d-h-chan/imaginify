@@ -7,6 +7,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "../ui/button";
 
+// wide-screen navbar
 const Sidebar = () => {
   const pathname = usePathname();
 

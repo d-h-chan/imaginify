@@ -93,7 +93,7 @@ export const debounce = (func: (...args: any[]) => void, delay: number) => {
   };
 };
 
-// GE IMAGE SIZE
+// GET IMAGE SIZE
 export type AspectRatioKey = keyof typeof aspectRatioOptions;
 export const getImageSize = (
   type: string,
@@ -130,7 +130,7 @@ export const download = (url: string, filename: string) => {
     .catch((error) => console.log({ error }));
 };
 
-// DEEP MERGE OBJECTS
+// DEEP MERGE OBJECTS: merges all keys of two objects to make a new object
 export const deepMergeObjects = (obj1: any, obj2: any) => {
   if (obj2 === null || obj2 === undefined) {
     return obj1;

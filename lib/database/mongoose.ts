@@ -26,7 +26,11 @@ export const connectToDatabase = async () => {
   // check if we already have a cached connection
   if (cached.conn) return cached.conn;
 
-  if (!MONGODB_URL) throw new Error("Missing MONDOB_URL");
+  console.log(MONGODB_URL)
+  console.log(process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL)
+  console.log(process.env.CLOUDINARY_API_SECRET)
+
+  if (!MONGODB_URL) throw new Error("Missing MONGODB_URL");
 
   // if not, make a connection to MongoDB
   cached.promise =
