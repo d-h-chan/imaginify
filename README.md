@@ -2,7 +2,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-An AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal. [Check it out here!](https://imaginify-dchan.vercel.app/)
+An AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal. [Check it out here!](https://imaginify-dc.vercel.app/)
 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
